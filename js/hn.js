@@ -380,8 +380,9 @@ var hn = {
 				'<li><a data-filter="site:'+ domain +'" class="add-filter">Filter&nbsp;'+ domain +'</a></li>'+
 			'</ul></div></div>');
 			
+			$details.find("a:contains('comments')").hide();
 			// add sharing options
-			$details.append(' | <a class="share-story" href="#">share</a>');
+			$details.append(' <a class="share-story" href="#">share</a>');
 			
 			$('.share-story', $details).click(function(ev){
 				ev.preventDefault();
@@ -397,6 +398,10 @@ var hn = {
 			
 			$meta.append('<a class="toggle-replies">collapse<a>');
 		});
+		$('span.comment').each(function(){
+			var $wrapper = $(this).parent().parent().parent();
+			$wrapper.hide();
+		})
 	},
 	
 	filterStories: function(){

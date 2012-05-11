@@ -133,11 +133,13 @@ td.title a {
 
 td.title a:hover {
 	color: #2991D6;
+	color: #0000FF;
 }
 
 
 td.title a:visited {
 	color: #87C1E8;
+	color: #FF00FF;
 }
 
 td.title .comhead a {
