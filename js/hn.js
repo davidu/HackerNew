@@ -40,12 +40,12 @@ var hn = {
 	
 	createProfileBubble: function(){
 	
-		$('body').append('<div id="profile-bubble"><em></em><div class="profile"></div></div>');
+		//$('body').append('<div id="profile-bubble"><em></em><div class="profile"></div></div>');
 	},
 	
 	createQuickReply: function(){
 	
-		$('body').append('<div id="quick-reply"><em></em><div class="reply"></div></div>');
+		//$('body').append('<div id="quick-reply"><em></em><div class="reply"></div></div>');
 	},
 	
 	createFilterMenu: function(){
@@ -102,7 +102,7 @@ var hn = {
 		$('.toggle-replies').click(hn.toggleReplies);
 		
 		// slice removes the first user, which is always ourselves
-		$('a[href^=user]').slice(1).hoverIntent(hn.loadUserDetails, function(){});
+		//$('a[href^=user]').slice(1).hoverIntent(hn.loadUserDetails, function(){});
 		$('a[href^=reply]').click(hn.quickReply);
 		
 		$(document).click(hn.closeQuickReply);
@@ -375,10 +375,7 @@ var hn = {
 			var username = $('a', $details).first().text();
 			
 			// add filtering options
-			$link.before('<div class="filter-menu"><span>&#215;</span> <div class="quick-filter"><em></em> <ul>'+
-				'<li><a data-filter="user:'+ username +'" class="add-filter">Filter user \''+ username +'\'</a></li>'+
-				'<li><a data-filter="site:'+ domain +'" class="add-filter">Filter&nbsp;'+ domain +'</a></li>'+
-			'</ul></div></div>');
+			// $link.before('<div class="filter-menu"><span>&#215;</span> <div class="quick-filter"><em></em> <ul>' + '<li><a data-filter="user:'+ username +'" class="add-filter">Filter user \''+ username +'\'</a></li>' +	'<li><a data-filter="site:'+ domain +'" class="add-filter">Filter&nbsp;'+ domain +'</a></li>' + '</ul></div></div>');
 			
 			$details.find("a:contains('comments')").hide();
 			// add sharing options

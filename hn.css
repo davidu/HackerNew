@@ -126,7 +126,7 @@ td.title {
 }
 
 td.title a {
-	font-size: 20px;
+	font-size: 24px;
 	letter-spacing: -1px;
 	color: #2279B2;
 }
@@ -144,17 +144,18 @@ td.title a:visited {
 
 td.title .comhead a {
 	color: #444;
-	font-size: 8pt;
+	font-size: 12pt;
 }
 
 td.title:first-child {
 	font-size: 20px;
-	color: #bbb;
+	color: #999;
 	min-width: 33px;
 }
 
 td.subtext {
-	font-size: 10px;
+	font-size: 14px;
+	color: #333;
 }
 
 td.subtext a:hover {
