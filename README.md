@@ -2,13 +2,7 @@
 
 A chrome extension to add requested and missing functionality to hacker news including quick user profiles, inline replies, story filtering and more.
 
-
-## Usage
-
-Install from the Chrome Webstore to receive automatic updates:
-
-https://chrome.google.com/webstore/detail/lgoghlndihpmbbgmbpjohilcphbfhddd
-
+Most importantly, this fork removes all comments.
 
 ## Features
 
@@ -20,14 +14,6 @@ https://chrome.google.com/webstore/detail/lgoghlndihpmbbgmbpjohilcphbfhddd
 * Endless scrolling
 * Collapsible comment threads
 * Social sharing for Twitter, Facebook, Google+, Buffer
-
-
-## Todo
-
-* Refactoring
-* Highlighting of stories based on terms / domain / username
-* Caching of quick profiles
-
 
 ## License
 
