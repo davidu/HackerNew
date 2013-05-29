@@ -12,6 +12,7 @@ https://chrome.google.com/webstore/detail/lgoghlndihpmbbgmbpjohilcphbfhddd
 
 ## Features
 
+* **Remove all comments**
 * Improved readability design
 * Quick inline replies
 * Quick profiles with social network info when hovering over usernames
